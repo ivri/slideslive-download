@@ -17,7 +17,8 @@ EMNLP'20: https://d2ygwrecguqg66.cloudfront.net/data/presentations/38939785/v3/3
 EACL'21: https://d2ygwrecguqg66.cloudfront.net/data/presentations/38954441/v2/38954441.xml
 
 3) Download the video, e.g. 
-```youtube-dl https://slideslive.com/38929870/
+```
+youtube-dl https://slideslive.com/38929870/
 ```
 5) Get slides and their timestamps: 
 ```
