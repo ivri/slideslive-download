@@ -22,7 +22,8 @@ and run
 ```
 python3 slideslive-slides-dl.py https://slideslive.com/38929870/
 ```
-It will create a folder like "38929870-" that contains ffmpeg_concat.txt  
+It will create a folder like "38929870-" that contains ffmpeg_concat.txt
+
 5) Make a slideshow (set the scale so it fits the video size as well): 
 ```
  ffmpeg -f concat -i 38929870-/ffmpeg_concat.txt -vsync vfr -pix_fmt yuv420p -filter:v scale=1364:1080 slides-out.mp4
