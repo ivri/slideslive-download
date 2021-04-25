@@ -27,7 +27,7 @@ It will create a folder like "38929870-" that contains ffmpeg_concat.txt
 ```
  ffmpeg -f concat -i 38929870-/ffmpeg_concat.txt -vsync vfr -pix_fmt yuv420p -filter:v scale=1364:1080 slides-out.mp4
 ```
-8) Merge the video with the slideshow, e.g.
+6) Merge the video with the slideshow, e.g.
 ```
 ffmpeg -i ../SIGMORPHON\ 2020\ Shared\ Task\ 0\ -\ Typologically\ Diverse\ Morphological\ Inflection-434566251.mp4 -i slides-out.mp4 -filter_complex hstack output.mp4
 ```
