@@ -5,7 +5,8 @@
 2) Install https://github.com/PeterTheOne/slideslive-slides-dl (make sure to fix versioning if you'd like to download EMNLP'20 or later, the links should be like https://d2ygwrecguqg66.cloudfront.net/data/presentations/id/v3/id.xml)
 
 For EMNLP'20 or later you'll need to make fixes in slideslive-slides-dl.py  like
-```file_path = '{0}/v3/{1}.xml'.format(folder_name, video_id)
+```
+file_path = '{0}/v3/{1}.xml'.format(folder_name, video_id)
     if not os.path.exists(file_path):
         xml_url = '{0}{1}/v3/{1}.xml'.format(base_xml_url, video_id)
 ```
@@ -14,7 +15,13 @@ EMNLP'20: https://d2ygwrecguqg66.cloudfront.net/data/presentations/38939785/v3/3
 
 3) Download the video, e.g. youtube-dl https://slideslive.com/38929870/
 4) Get slides and their timestamps: 
-```cd slideslive-slides-dl``` and run ```python3 slideslive-slides-dl.py https://slideslive.com/38929870/```
+```
+cd slideslive-slides-dl
+``` 
+and run 
+```
+python3 slideslive-slides-dl.py https://slideslive.com/38929870/
+```
 It will create a folder like "38929870-" that contains ffmpeg_concat.txt  
 5) Make a slideshow (set the scale so it fits the video size as well): 
 ```
