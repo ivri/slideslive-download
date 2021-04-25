@@ -20,7 +20,7 @@ EACL'21: https://d2ygwrecguqg66.cloudfront.net/data/presentations/38954441/v2/38
 ```
 youtube-dl https://slideslive.com/38929870/
 ```
-5) Get slides and their timestamps: 
+4) Get slides and their timestamps: 
 ```
 cd slideslive-slides-dl
 ``` 
