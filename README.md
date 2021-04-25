@@ -38,3 +38,4 @@ It will create a folder like "38929870-" that contains ffmpeg_concat.txt
 ```
 ffmpeg -i ../SIGMORPHON\ 2020\ Shared\ Task\ 0\ -\ Typologically\ Diverse\ Morphological\ Inflection-434566251.mp4 -i slides-out.mp4 -filter_complex hstack output.mp4
 ```
+The final video will be in output.mp4
