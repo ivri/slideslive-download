@@ -2,7 +2,9 @@
 
 
 1) Install https://github.com/ytdl-org/youtube-dl/
- 1.1 Copy slideslive.py into youtube_dl/extractor/ (replacing the old one)
+
+ 1.1 Copy slideslive.py into "youtube_dl/extractor/" (replacing the old one)
+
 2) Install https://github.com/PeterTheOne/slideslive-slides-dl (make sure to fix versioning if you'd like to download EMNLP'20 or later, the links should be like https://d2ygwrecguqg66.cloudfront.net/data/presentations/id/v3/id.xml)
 
 For EMNLP'20 or later you'll need to make fixes in slideslive-slides-dl.py  like
